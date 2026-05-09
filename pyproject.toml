@@ -1,0 +1,17 @@
+[project]
+name = "forceautohdr"
+version = "1.0.0.4"
+description = "GUI utility for adding games to the Windows AutoHDR registry list."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+dependencies = [
+    "customtkinter>=5.2,<6",
+]
+
+[project.scripts]
+forceautohdr = "force_autohdr.app:main"
+
+[tool.setuptools]
+packages = ["force_autohdr"]
+
