@@ -1,0 +1,2 @@
+"""ForceAutoHDR application package."""
+
